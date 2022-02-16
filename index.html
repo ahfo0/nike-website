@@ -31,14 +31,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        
+        <!-- normalize -->
         <link rel="stylesheet" href="common/normalize.css">
-        <!-- <link rel="stylesheet" href="common/swiper-bundle.min.css"/> -->
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="common/swiper-bundle.min.css"/>
         <!-- 기본 css -->
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/index_t.css" media="screen and (min-width:641px)">
         <link rel="stylesheet" href="css/index_t2.css" media="screen and (min-width:770px)">
         <link rel="stylesheet" href="css/index_pc.css" media="screen and (min-width:961px)">
+        <!-- prefix -->
+        <script src="common/prefixfree.min.js"></script>
+        <!-- Swiper JS -->
+        <script src="common/swiper-bundle.min.js"></script>
+        <script defer src="common/swiper.js"></script>
     </head>
     <body>
         <nav>
@@ -508,64 +514,67 @@
                     </div>
                 </div>
             </div>
-            <div id="main8">
+            <div id="main8" class="swiper mySwiper">
                 <p id="main8_title">Featured Shoes</p>
-                <div id="featured">
-                    <div id="daybreak">
+                <div id="featured" class="swiper-wrapper">
+                    <div id="daybreak" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 데이브레이크</p>
                         <p>여성 신발</p>
                         <p>119,000원</p>
                     </div>
-                    <div id="lahar">
+                    <div id="lahar" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 라하르 로우</p>
                         <p>여성 신발</p>
                         <p>169,000원</p>
                     </div>
-                    <div id="waffle">
+                    <div id="waffle" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 와플 트레이너 2 SD</p>
                         <p>남성 신발</p>
                         <p>119,000원</p>
                     </div>
-                    <div id="zoom">
+                    <div id="zoom" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 줌 플라이 4</p>
                         <p>남성 로드 러닝화</p>
                         <p>189,000원</p>
                     </div>
-                    <div id="defy">
+                    <div id="defy" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 디파이 올 데이</p>
                         <p>남성 트레이닝화</p>
                         <p>79,000원</p>
                     </div>
-                    <div id="kyrie">
+                    <div id="kyrie" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>카이리 인피니티 EP</p>
                         <p>성인공용 농구화</p>
                         <p>159,000원</p>
                     </div>
-                    <div id="air_victory">
+                    <div id="air_victory" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 에어 줌 빅토리 투어 2 보아</p>
                         <p>성인공용 골프화(와이드)</p>
                         <p>269,000원</p>
                     </div>
-                    <div id="air_jordan">
+                    <div id="air_jordan" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>에어 조던 1 레트로 하이 OG</p>
                         <p>남성 신발</p>
                         <p>199,000원</p>
                     </div>
-                    <div id="vapor">
+                    <div id="vapor" class="swiper-slide">
                         <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
                         <p>나이키 베이퍼 14 엘리트 FG</p>
                         <p>성인공용 축구화</p>
                         <p>299,000원</p>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
             <div id="main9">
                 <p id="main9_title">Apparel Essentials</p>

@@ -88,55 +88,26 @@ main #main7 #trend .mobile .icon{ margin-top:20px;width:100%; height:128.5vw; ba
 main #main7 #trend .mobile .icon p:nth-child(1){ color:#fff; font-size:20px; font-weight:500;grid-row:2/3; grid-column:2/3;}
 main #main7 #trend .mobile .icon p:nth-child(2){grid-row:3/4;grid-column:2/3;}
 main #main7 #trend .pc{display:none;}
-main #main8{ width:95vw; margin:0 2.5vw; height:450px;}
-main #main8 #featured{overflow-x:scroll; display:grid; grid-template-columns:repeat(9,320px)}
-main #main8 #main8_title{font-size:22px; font-weight:500; padding-left:15px; margin-top:90px;}
-main #main8 #featured div{display:grid; grid-template:300px 16px 30px 30px 30px/300px 20px}
-main #main8 #featured #daybreak{grid-column:1/2;}
-main #main8 #featured #daybreak p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #daybreak p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #daybreak p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #daybreak .shoes{width:300px; height:300px; background: url(../images/daybreak.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #lahar{grid-column:2/3;}
-main #main8 #featured #lahar p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #lahar p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #lahar p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #lahar .shoes{width:300px; height:300px; background: url(../images/lahar.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #waffle{grid-column:3/4;}
-main #main8 #featured #waffle p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #waffle p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #waffle p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #waffle .shoes{width:300px; height:300px; background: url(../images/waffle.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #zoom{grid-column:4/5;}
-main #main8 #featured #zoom p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #zoom p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #zoom p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #zoom .shoes{width:300px; height:300px; background: url(../images/zoom.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #defy{grid-column:5/6;}
-main #main8 #featured #defy p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #defy p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #defy p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #defy .shoes{width:300px; height:300px; background: url(../images/defy.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #kyrie{grid-column:6/7;}
-main #main8 #featured #kyrie p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #kyrie p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #kyrie p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #kyrie .shoes{width:300px; height:300px; background: url(../images/kyrie.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #air_victory{grid-column:7/8;}
-main #main8 #featured #air_victory p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #air_victory p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #air_victory p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #air_victory .shoes{width:300px; height:300px; background: url(../images/air_victory.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #air_jordan{grid-column:8/9;}
-main #main8 #featured #air_jordan p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #air_jordan p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #air_jordan p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #air_jordan .shoes{width:300px; height:300px; background: url(../images/air_jordan.jpg) no-repeat; background-size:cover; grid-row:1/2}
-main #main8 #featured #vapor{grid-column:9/10;}
-main #main8 #featured #vapor p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0;}
-main #main8 #featured #vapor p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0;}
-main #main8 #featured #vapor p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0;}
-main #main8 #featured #vapor .shoes{width:300px; height:300px; background: url(../images/vapor.jpg) no-repeat; background-size:cover; grid-row:1/2}
+main #main8{ width:95vw; margin:0 2.5vw; height:530px;}
+
+main #main8 #main8_title{font-size:22px; font-weight:500; padding-left:15px; margin-top:90px; margin-bottom:30px;}
+main #main8{
+    --swiper-navigation-color:#f4631c;
+}
+main #main8 .swiper-wrapper{width:300px; margin:0 auto;}
+main #main8 #featured .swiper-slide{width:100%;}
+main #main8 #featured .swiper-slide p:nth-child(2){padding:0; font-size:17px; font-weight:500; grid-row:3/4; margin:0; margin-top:10px}
+main #main8 #featured .swiper-slide p:nth-child(3){font-size:14px; font-weight:400; color:#757575;grid-row:4/5; margin:0; margin-top:10px}
+main #main8 #featured .swiper-slide p:nth-child(4){font-size:16px; font-weight:400; color:#757575;grid-row:5/6;  margin:0 auto; margin-top:10px}
+main #main8 #featured #daybreak .shoes{width:300px; height:300px; background: url(../images/daybreak.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #lahar .shoes{width:300px; height:300px; background: url(../images/lahar.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #waffle .shoes{width:300px; height:300px; background: url(../images/waffle.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #zoom .shoes{width:300px; height:300px; background: url(../images/zoom.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #defy .shoes{width:300px; height:300px; background: url(../images/defy.jpg) no-repeat; background-size:cover;}
+main #main8 #featured #kyrie .shoes{width:300px; height:300px; background: url(../images/kyrie.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #air_victory .shoes{width:300px; height:300px; background: url(../images/air_victory.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #air_jordan .shoes{width:300px; height:300px; background: url(../images/air_jordan.jpg) no-repeat; background-size:cover; }
+main #main8 #featured #vapor .shoes{width:300px; height:300px; background: url(../images/vapor.jpg) no-repeat; background-size:cover; }
 main #main9{ width:95vw; margin:0 2.5vw; height:450px;}
 main #main9 #main9_title{font-size:22px; font-weight:500; padding-left:15px; margin-top:90px;}
 main #main9 #apparel{overflow-x:scroll; display:grid; grid-template-columns:300px 20px 300px 20px 300px}
