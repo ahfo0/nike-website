@@ -2,6 +2,10 @@
 
 https://220203.netlify.app/
 
+### 전체 포트폴리오 저장소
+
+https://github.com/ahfo0/2022-Portfolio
+
 ### 특징
 
 - PC, 태블릿, 모바일 반응형 웹사이트입니다. (4개의 css 적용)
