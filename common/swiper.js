@@ -4,6 +4,7 @@ const swiper = new Swiper('.swiper', {
     speed: 600,
     parallax: true,
     loop: true, // 마지막에서 최초로 이동
+    
     navigation: {// 좌우 화살표 버튼
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -24,3 +25,4 @@ const swiper = new Swiper('.swiper', {
     }
     
   })
+  
