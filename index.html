@@ -44,7 +44,13 @@
         <script src="common/prefixfree.min.js"></script>
         <!-- Swiper JS -->
         <script src="common/swiper-bundle.min.js"></script>
-        <script defer src="common/swiper.js"></script>
+        <!-- jQuery 라이브러리(Ajax) -->
+        <script src="common/jquery-3.6.0.min.js"></script>
+        
+        
+
+        
+        
     </head>
     <body>
         <nav>
@@ -516,62 +522,7 @@
             </div>
             <div id="main8" class="swiper mySwiper">
                 <p id="main8_title">Featured Shoes</p>
-                <div id="featured" class="swiper-wrapper">
-                    <div id="daybreak" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 데이브레이크</p>
-                        <p>여성 신발</p>
-                        <p>119,000원</p>
-                    </div>
-                    <div id="lahar" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 라하르 로우</p>
-                        <p>여성 신발</p>
-                        <p>169,000원</p>
-                    </div>
-                    <div id="waffle" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 와플 트레이너 2 SD</p>
-                        <p>남성 신발</p>
-                        <p>119,000원</p>
-                    </div>
-                    <div id="zoom" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 줌 플라이 4</p>
-                        <p>남성 로드 러닝화</p>
-                        <p>189,000원</p>
-                    </div>
-                    <div id="defy" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 디파이 올 데이</p>
-                        <p>남성 트레이닝화</p>
-                        <p>79,000원</p>
-                    </div>
-                    <div id="kyrie" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>카이리 인피니티 EP</p>
-                        <p>성인공용 농구화</p>
-                        <p>159,000원</p>
-                    </div>
-                    <div id="air_victory" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 에어 줌 빅토리 투어 2 보아</p>
-                        <p>성인공용 골프화(와이드)</p>
-                        <p>269,000원</p>
-                    </div>
-                    <div id="air_jordan" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>에어 조던 1 레트로 하이 OG</p>
-                        <p>남성 신발</p>
-                        <p>199,000원</p>
-                    </div>
-                    <div id="vapor" class="swiper-slide">
-                        <div class="shoes" style="cursor: pointer;" onclick="location.href='#';"></div>
-                        <p>나이키 베이퍼 14 엘리트 FG</p>
-                        <p>성인공용 축구화</p>
-                        <p>299,000원</p>
-                    </div>
-                </div>
+                <div id="featured" class="swiper-wrapper"></div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
@@ -677,6 +628,8 @@
                 <p>본 사이트는 비상업적 용도의 포트폴리오 사이트입니다.</p>
             </div>
         </footer>
-        <!-- <script src="common/swiper-bundle.min.js"></script> -->
+        <script src="common/main8.js"></script>
+        <script async type=module src="common/swiper.js"></script>
+        
     </body>
 </html>

@@ -35,5 +35,8 @@ const swiper = new Swiper('.swiper', {
         slidesPerView: 5,
         spaceBetween: 10
       },
-    }
+    },
+    // 스와이퍼 초기화 (json으로 div까지 통째로 생성했기에
+    // 작동하지 않던 스와이퍼를 초기화 시켜서 적용하게함)
+    observer: true, observeParents: true,
   })

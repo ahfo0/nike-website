@@ -73,7 +73,7 @@ main #main5 #dynamo #dynamo_detail .main_title{grid-row:3/4; grid-column:2/3; ma
 main #main5 #dynamo #dynamo_detail .main_detail{grid-row:4/5; grid-column:2/3;}
 main #main5 #dynamo #dynamo_detail .main_url{grid-row:5/6; grid-column:2/3;}
 main #main6{width:95vw; margin:0 2.5vw;}
-main #main6 #sesh #sesh_img .mobile{width:100%; height:130vw; background: url(../images/sesh_m.jpg) no-repeat; background-size:cover;}
+main #main6 #sesh #sesh_img .mobile{width:100%; height:130vw;}
 main #main6 #sesh #sesh_img .pc{display:none;}
 main #main6 #sesh #sesh_detail{display:grid; grid-template:13px 32px 1fr 46px/ 20px 1fr; }
 main #main6 #sesh #sesh_detail .main_title{grid-row:2/3; grid-column:2/3; margin:0;}
