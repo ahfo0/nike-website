@@ -19,7 +19,3 @@ https://github.com/ahfo0/2022-Portfolio
 - 2차 수정 : 2022.02.11 (폰트 누락 수정)
 - 3차 수정 : 2022.02.16 (swiper-slide 적용)
 - 4차 수정 : 2022.02.27 (swiper 컨텐츠에 Ajax +JSON 방식 적용)
-
-### 보완 예정
-
-- 신발 슬라이드 부분 swiper, Ajax 중첩 후 오류생긴 부분 개선
